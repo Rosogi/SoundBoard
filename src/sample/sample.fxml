@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <VBox prefHeight="300.0" prefWidth="300.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="Button_1" mnemonicParsing="false" onMousePressed="#Button_1_P" onMouseReleased="#Button_1_R" prefHeight="100.0" prefWidth="100.0" />
+                  <Button fx:id="Button_2" mnemonicParsing="false" onMousePressed="#Button_2_P" onMouseReleased="#Button_2_R" prefHeight="100.0" prefWidth="100.0" />
+                  <Button fx:id="Button_3" mnemonicParsing="false" onMousePressed="#Button_3_P" onMouseReleased="#Button_3_R" prefHeight="100.0" prefWidth="100.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="Button_4" mnemonicParsing="false" onMousePressed="#Button_4_P" onMouseReleased="#Button_4_R" prefHeight="100.0" prefWidth="100.0" />
+                  <Button fx:id="Button_5" mnemonicParsing="false" onMousePressed="#Button_5_P" onMouseReleased="#Button_5_R" prefHeight="100.0" prefWidth="100.0" />
+                  <Button fx:id="Button_6" mnemonicParsing="false" onMousePressed="#Button_6_P" onMouseReleased="#Button_6_R" prefHeight="100.0" prefWidth="100.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="Button_7" mnemonicParsing="false" onMousePressed="#Button_7_P" onMouseReleased="#Button_7_R" prefHeight="100.0" prefWidth="100.0" />
+                  <Button fx:id="Button_8" mnemonicParsing="false" onMousePressed="#Button_8_P" onMouseReleased="#Button_8_R" prefHeight="100.0" prefWidth="100.0" />
+                  <Button fx:id="Button_9" mnemonicParsing="false" onMousePressed="#Button_9_P" onMouseReleased="#Button_9_R" prefHeight="100.0" prefWidth="100.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</GridPane>
