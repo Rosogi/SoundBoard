@@ -1,7 +1,6 @@
 package sample;
 
-import javafx.event.ActionEvent;
-import javafx.scene.control.Button;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;

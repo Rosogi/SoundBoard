@@ -15,7 +15,7 @@
       <RowConstraints />
    </rowConstraints>
    <children>
-      <VBox prefHeight="300.0" prefWidth="300.0">
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0">
          <children>
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
